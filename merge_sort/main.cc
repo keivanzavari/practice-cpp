@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstring> // memcpy
 #include "merge_sort.h"
 #include "test_merge_sort.h"
 

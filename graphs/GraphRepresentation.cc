@@ -1,5 +1,6 @@
 #include "GraphRepresentation.h"
 #include <curses.h>
+#include <algorithm> // std::find
 
 namespace jw {
 

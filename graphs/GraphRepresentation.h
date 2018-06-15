@@ -5,6 +5,7 @@
 #include <stack>
 #include <string>
 #include <vector>
+#include <memory> // unique_ptr
 
 #ifndef PROJECT_GRAPH_REPRESENTATION_H
 #define PROJECT_GRAPH_REPRESENTATION_H

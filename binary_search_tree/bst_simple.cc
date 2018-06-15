@@ -1,5 +1,7 @@
 #include "bst_simple.h"
 
+#include<climits> // INT_MIN, INT_MAX
+
 namespace jw {
 
 BSTNode* GetNewNode(int value) {

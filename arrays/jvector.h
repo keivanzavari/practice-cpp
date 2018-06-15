@@ -1,6 +1,8 @@
 #ifndef PRACTICE_CPP_JARRAY_H
 #define PRACTICE_CPP_JARRAY_H
 
+#include<memory> // unique_ptr
+
 namespace jw {
 
 static const int kMinCapacity = 16;

@@ -1,5 +1,5 @@
 #include <iostream>
-//#include <string.h>  // for memcpy
+#include <cstring>  // for memcpy
 #include "test_sort.h"
 #include "quick_sort.h"
 

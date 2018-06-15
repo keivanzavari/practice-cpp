@@ -1,4 +1,5 @@
 #include "priority_queue.h"
+#include<climits> // INT_MAX
 
 namespace jw {
 
