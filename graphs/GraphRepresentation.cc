@@ -1,5 +1,5 @@
 #include "GraphRepresentation.h"
-#include <curses.h>
+// #include <curses.h>
 #include <algorithm> // std::find
 
 namespace jw {
@@ -173,7 +173,7 @@ void GraphRepresentationList::PrintDebug() {
 }
 
 bool GraphRepresentationList::ContainsCycle() {
-  bool contains_cycle = FALSE;
+  bool contains_cycle = false;
   const int STATUS_NEW = 0;
   const int STATUS_STARTED = 1;
   const int STATUS_FINISHED = 2;
@@ -208,7 +208,7 @@ bool GraphRepresentationList::ContainsCycle() {
         if (nodes[neighbor] == STATUS_NEW) {
           to_visit.push(neighbor);
         } else if (nodes[neighbor] == STATUS_STARTED) {
-          contains_cycle = TRUE;
+          contains_cycle = true;
           break;
         } else if (nodes[neighbor] == STATUS_FINISHED) {
           // skip, already seen
